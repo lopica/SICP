@@ -23,7 +23,12 @@ Chúng tôi tin rằng khoa học máy tính không không phải là về máy 
 
 Scheme, phiên bản Lisp mà chúng ta sử dụng, là một nỗ lực để kết hợp sức mạnh và vẻ đẹp của Lisp với Algol. Từ Lisp chúng ta có sức mạnh siêu ngôn ngữ từ cú pháp đơn giản, cách biểu diễn chung của chương trình như là các đối tượng dữ liệu, các dữ liệu rác được thu dọn và các dữ liệu được cấp pháp trên heap. Từ Algog chúng ta có **phạm vi ngữ cảnh** và **cấu trúc khối**, đó là những món quà từ các nhà thiết kế ngôn ngữ lập trình tiên phong trong ủy ban Algol. Chúng tôi muốn được trích dẫn John Reynolds và Peter Landin về góc nhìn của họ về mối quan hệ của phép tính lamda đến cấu trúc của ngôn ngữ lập trình. Chúng ta cũng nhận ra chúng ta đã nợ các nhà toán học đã khai phá phần kiến thức này nhiều thập kỷ trước khi các máy tính ra đời. Các người tiên phong này bao gồm Alonzo Church, Barkley Rosser, Stephen Kleene, và Haskell Curry.
 
-**nhận thức quy trình luận**: procedural epistemology
-**phiên bản**: dialect
-**mô đun**: module
-**dòng chảy**: stream
+---
+
+_Cấu trúc và cách thực thi của chương trình máy tính_: Structure and Interpretation of Computer Programs <br />
+**nhận thức quy trình luận**: procedural epistemology <br />
+**phiên bản**: dialect <br />
+**mô đun**: module <br />
+**dòng chảy**: stream <br />
+**phạm vi ngữ cảnh**: lexical scoping <br />
+**cấu trúc khối**: block structure <br />

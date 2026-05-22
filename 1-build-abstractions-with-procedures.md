@@ -32,6 +32,8 @@ khi cho việc tính toán trở nên hiệu quả, Và cho các úng dụng đ�
 
 Nếu Lisp không phải là ngôn ngữ phổ biến, tại sao lại dùng nó như là khung cho các cuộc thảo luận của chúng ta về lập trình? Bởi vì ngôn ngữ này có các chức năng đặc biệt khiến nó trở thành phương tiện tuyệt với để học các cấu trúc lập trình và cấu trúc dữ liệu quan trọng, và liên hệ chúng với tính năng ngôn ngữ hỗ trợ chúng. Một trong các tính năng nổi bật của Lisp là khả năng miêu tả các tiến trình, gọi là các **quy trình**, chúng có thể được được biểu diễn hoặc được thay đổi như dữ liệu trong Lisp. Điều này quan trọng bởi có một kĩ thuật mạnh để thiết kế chương trình mà phụ thuộc và khả năng làm mở đi khoảng cách truyền thống giữa các dữ liệu bị động và các tiến trình chủ động. Và rồi chúng ta sẽ tìm hiểu, khả năng linh hoạt của Lisp trong việc xử lý các quy trình như dữ liệu khiến nó là một trong các ngôn ngữ lập trình thuận tiện nhất để khám phá các kĩ thuật này. Khả năng thể hiện các quy trình như dữ liệu cũng khiến Lisp trở thành ngôn ngữ tuyệt vời để viết các chương trình mà cần phải thay đổi các chương trình khác như dữ liệu, như là các trình phiên dịch và biên dịch hỗ trợ các ngôn ngữ máy tính. Và ngoài tất cả các điều trên, lập trình Lisp khá thú vị.
 
-**tiến trình**: process
-**chương trình**: program
-**quy trình**: procedure
+---
+
+**tiến trình**: process <br />
+**chương trình**: program <br />
+**quy trình**: procedure <br />
