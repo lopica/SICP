@@ -1,0 +1,29 @@
+{
+  "skill_name": "sicp-translation",
+  "evals": [
+    {
+      "id": 0,
+      "name": "section-1.2.3-orders-of-growth",
+      "prompt": "Dịch mục 1.2.3 Orders of Growth của SICP sang tiếng Việt.",
+      "expected_output": "A markdown file translating section 1.2.3: meaning-based Vietnamese prose, Theta-notation math in $...$, code in ```lisp fences, terms styled per glossary, and a terminology footer after a --- separator.",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 1,
+      "name": "section-1.2.4-exponentiation",
+      "prompt": "Dịch mục 1.2.4 Exponentiation của SICP sang tiếng Việt.",
+      "expected_output": "A markdown file translating section 1.2.4: prose plus several Lisp procedures (fast-expt etc.) in ```lisp fences, math in $...$, styled terms, and a terminology footer.",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 2,
+      "name": "exercise-1.11",
+      "prompt": "Dịch bài tập 1.11 của SICP sang tiếng Việt, kèm lời giải.",
+      "expected_output": "An exercises/1.11.md-style file: translated problem statement, a --- separator, then a translated solution with Lisp code from sicp-solutions.net. NO terminology footer.",
+      "files": [],
+      "assertions": []
+    }
+  ]
+}

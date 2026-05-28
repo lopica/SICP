@@ -25,10 +25,4 @@ Scheme, phiên bản Lisp mà chúng ta sử dụng, là một nỗ lực để 
 
 ---
 
-_Cấu trúc và cách thực thi của chương trình máy tính_: Structure and Interpretation of Computer Programs <br />
-**nhận thức quy trình luận**: procedural epistemology <br />
-**phiên bản**: dialect <br />
-**mô đun**: module <br />
-**dòng chảy**: stream <br />
-**phạm vi ngữ cảnh**: lexical scoping <br />
-**cấu trúc khối**: block structure <br />
+`procedural epistemology` `dialect` `module` `stream` `lexical scoping` `block structure`
