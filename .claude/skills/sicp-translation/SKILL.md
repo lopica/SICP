@@ -141,23 +141,29 @@ liên tục cả chương).
 
 Nếu bản gốc của phần này không có footnote nào thì bỏ qua khối (a).
 
-**b. Danh sách thuật ngữ — chỉ là tag, không phải bản dịch.** Sau footnote, thêm
+**b. Danh sách thuật ngữ — tag có link, không phải bản dịch.** Sau footnote, thêm
 một dấu `---` nữa rồi liệt kê các thuật ngữ mà file này có dùng, dưới dạng **tag
-tiếng Anh trong backtick**, cách nhau bằng dấu cách:
+tiếng Anh trong backtick kèm link đến định nghĩa trong `GLOSSARY.md`**, cách nhau
+bằng dấu cách:
 
 ```
 ---
 
-`order of growth` `parameter` `operation` `linear recursive process` `golden ratio`
+[`order of growth`](GLOSSARY.md#order-of-growth) [`parameter`](GLOSSARY.md#parameter) [`linear recursive process`](GLOSSARY.md#linear-recursive-process) [`golden ratio`](GLOSSARY.md#golden-ratio)
 ```
 
-Đây **không** phải phần dịch — nó chỉ đánh dấu file dùng những thuật ngữ nào. Bản
-dịch tiếng Việt của từng thuật ngữ **chỉ** nằm ở `GLOSSARY.md`, nguồn sự thật duy
-nhất; vì vậy footer **không** lặp lại bản dịch, **không** có `<br />`, **không** in
-đậm/nghiêng. Mỗi tag là từ khóa tiếng Anh khớp đúng cột English của `GLOSSARY.md`.
-Liệt kê theo thứ tự thuật ngữ xuất hiện lần đầu trong bài, và chỉ những thuật ngữ
-thực sự có mặt trong file. (Việc in đậm/nghiêng vẫn áp dụng ở **thân bài** như mục
-3 — chỉ riêng danh sách tag này là không.)
+Slug của link là tên tiếng Anh viết thường, khoảng trắng thành dấu gạch ngang,
+dấu gạch chéo và ký tự đặc biệt bỏ đi (ví dụ: `tail recursion / tail-recursive`
+→ `#tail-recursion`). Mỗi dòng trong `GLOSSARY.md` có anchor `<a id="slug"></a>`
+nhúng trong ô bảng — đó là đích để link nhảy đến khi bấm tag.
+
+Đây **không** phải phần dịch — nó chỉ đánh dấu file dùng những thuật ngữ nào và
+cho phép điều hướng nhanh đến bản dịch. Bản dịch tiếng Việt của từng thuật ngữ
+**chỉ** nằm ở `GLOSSARY.md`; vì vậy footer **không** lặp lại bản dịch, **không**
+có `<br />`, **không** in đậm/nghiêng. Mỗi tag khớp đúng cột English của
+`GLOSSARY.md`. Liệt kê theo thứ tự thuật ngữ xuất hiện lần đầu trong bài, và chỉ
+những thuật ngữ thực sự có mặt trong file. (Việc in đậm/nghiêng vẫn áp dụng ở
+**thân bài** như mục 3 — chỉ riêng danh sách tag này là không.)
 
 **Bài tập không có danh sách thuật ngữ (b)** — xem mục bên dưới. Nếu đề bài hay
 lời giải của bài tập có footnote thì vẫn dịch và giữ chúng theo khối (a).
@@ -213,8 +219,12 @@ is how that drift gets fixed going forward.
 - **Bỏ footnote.** Bản gốc có `[^n]` mà bản dịch không có → sai. Footnote là
   nội dung sách, không phải trang trí.
 - **Tag list lặp lại bản dịch.** Footer `` `procedure` (quy trình) `` hay
-  `` `procedure`<br />**quy trình** `` đều sai — chỉ để tag tiếng Anh trong
-  backtick, không gì khác.
+  `` `procedure`<br />**quy trình** `` đều sai — đúng format là
+  `` [`procedure`](GLOSSARY.md#procedure) ``, chỉ tag tiếng Anh có link, không
+  thêm bản dịch hay bất cứ thứ gì khác.
+- **Tag không có link.** Backtick đơn `` `procedure` `` không có link đến
+  `GLOSSARY.md` — người dùng không bấm vào được. Luôn dùng dạng
+  `` [`term`](GLOSSARY.md#slug) ``.
 - **Vẽ lại bảng/cây đánh giá bằng ASCII hoặc markdown table.** Phải tham chiếu
   `./figures/figureN.png` và báo user thêm ảnh.
 - **Style một từ chỗ này, để chữ thường chỗ khác trong cùng file** (mà không
@@ -233,5 +243,5 @@ is how that drift gets fixed going forward.
 - [ ] Code trong ` ```lisp `, giữ nguyên; toán học trong `$...$`.
 - [ ] Hình/bảng tham chiếu ảnh `./figures/`, không vẽ lại.
 - [ ] Mọi footnote `[^n]` trong bản gốc đã được dịch và đặt ở cuối bài (đừng quên — nhiều bản dịch cũ hay thiếu phần này).
-- [ ] Phần thân bài kết thúc bằng danh sách **tag thuật ngữ tiếng Anh trong backtick**, khớp đúng cột English của `GLOSSARY.md`; không lặp lại bản dịch, không `<br />`, không in đậm/nghiêng. Bài tập không có danh sách này.
+- [ ] Phần thân bài kết thúc bằng danh sách **tag thuật ngữ có link** dạng `` [`term`](GLOSSARY.md#slug) ``, khớp đúng cột English của `GLOSSARY.md`; không lặp lại bản dịch, không `<br />`, không in đậm/nghiêng, không backtick đơn thiếu link. Bài tập không có danh sách này.
 - [ ] Thuật ngữ mới (nếu có) đã được thêm vào `GLOSSARY.md`.
