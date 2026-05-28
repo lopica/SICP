@@ -25,4 +25,4 @@ Scheme, phiên bản Lisp mà chúng ta sử dụng, là một nỗ lực để 
 
 ---
 
-`procedural epistemology` `dialect` `module` `stream` `lexical scoping` `block structure`
+[`procedural epistemology`](GLOSSARY.md#procedural-epistemology) [`dialect`](GLOSSARY.md#dialect) [`module`](GLOSSARY.md#module) [`stream`](GLOSSARY.md#stream) [`lexical scoping`](GLOSSARY.md#lexical-scoping) [`block structure`](GLOSSARY.md#block-structure)

@@ -40,4 +40,4 @@ Nếu Lisp không phải là ngôn ngữ phổ biến, tại sao lại dùng nó
 
 ---
 
-`process` `program` `procedure`
+[`process`](GLOSSARY.md#process) [`program`](GLOSSARY.md#program) [`procedure`](GLOSSARY.md#procedure)
