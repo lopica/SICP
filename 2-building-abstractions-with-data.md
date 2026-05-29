@@ -38,8 +38,6 @@ Tiếp theo, ta sẽ mở rộng sức biểu đạt của ngôn ngữ bằng c�
 
 Sau đó ta sẽ giải quyết bài toán làm việc với **dữ liệu** có thể được biểu diễn theo nhiều cách khác nhau ở các phần khác nhau của **chương trình**. Điều này đặt ra nhu cầu hiện thực các _phép toán tổng quát_, tức là các phép toán phải xử lý được nhiều kiểu dữ liệu. Để duy trì tính **mô đun** khi có các _phép toán tổng quát_, ta cần những _hàng rào trừu tượng_ mạnh hơn so với chỉ dùng _trừu tượng dữ liệu_ đơn thuần. Đặc biệt, ta sẽ giới thiệu _lập trình hướng dữ liệu_ như một kỹ thuật cho phép thiết kế từng biểu diễn dữ liệu một cách độc lập rồi kết hợp chúng một cách _cộng thêm_ (tức là không cần sửa đổi). Để minh họa sức mạnh của cách tiếp cận này, ta sẽ kết thúc chương bằng cách xây dựng một gói tính toán ký hiệu trên đa thức, trong đó các hệ số của đa thức có thể là số nguyên, số hữu tỉ, số phức, hay thậm chí là các đa thức khác.
 
----
-
 [^1]: Khả năng thao tác trực tiếp các **quy trình** cũng mang lại sự mở rộng sức biểu đạt tương tự cho ngôn ngữ lập trình. Ví dụ, trong 1.3.1 ta đã giới thiệu **quy trình** `sum`, nhận một **quy trình** `term` làm **đối số** và tính tổng các giá trị của `term` trên một khoảng xác định. Để định nghĩa `sum`, điều then chốt là ta phải có thể nói đến một **quy trình** như `term` như một thực thể độc lập, không phụ thuộc vào cách `term` được xây dựng từ các phép tính nguyên thủy hơn. Thật vậy, nếu ta không có khái niệm "một **quy trình**", thì có lẽ ta sẽ không bao giờ nghĩ đến khả năng định nghĩa một phép tính như `sum`. Hơn nữa, về mặt thực hiện phép tính tổng, chi tiết về cách `term` được xây dựng từ các phép tính nguyên thủy hơn hoàn toàn không liên quan.
 
 ---
